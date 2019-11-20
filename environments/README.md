@@ -1,0 +1,1 @@
+Put your environment json in this folder, and then `postmgn import`

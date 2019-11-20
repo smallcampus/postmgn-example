@@ -1,0 +1,45 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "d1fe8dd8-8ce7-4ff0-9883-08e4778133c9",
+            "name": "Hello World",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+        },
+        "item": [
+            {
+                "name": "Get Hong Kong Weather",
+                "_postman_id": "d53f8119-f77d-4a01-a78d-399bd5b19c71",
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang={{lang}}",
+                        "protocol": "https",
+                        "host": [
+                            "data",
+                            "weather",
+                            "gov",
+                            "hk"
+                        ],
+                        "path": [
+                            "weatherAPI",
+                            "opendata",
+                            "weather.php"
+                        ],
+                        "query": [
+                            {
+                                "key": "dataType",
+                                "value": "flw"
+                            },
+                            {
+                                "key": "lang",
+                                "value": "{{lang}}"
+                            }
+                        ]
+                    }
+                },
+                "response": []
+            }
+        ]
+    }
+}
