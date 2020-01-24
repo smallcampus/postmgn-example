@@ -8,7 +8,5 @@ Generate an API key in postman (Profile Icon on the top right) > Account Setting
 
 ```
 $ npm install -g postmgn
-$ postmgn init
-What is your postman API Key? [your api key]
 $ postmgn import
 ```
